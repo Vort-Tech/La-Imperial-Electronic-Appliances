@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: poppins;
+}
+.carousel-item img{
+    height: 550px;
+    object-fit: fill;
+}
+.carousel{
+    margin-top: 65px;
+}
+
+/* -----------------------------------------------------------------
+New Arrival Card Crousel Start
+----------------------------------------------------------------- */
+.owl-carousel{
+    border-bottom: 2px solid gray;
+    padding: 20px;
+}
+.card{
+    padding-right: 10px;
+}
+.card img{
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    transition: 0.5s;
+}
+.owl-nav button span{
+    font-size: 50px;
+    margin: 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px #03002f;
+}
+/* -----------------------------------------------------------------
+New Arrival Card Crousel End
+----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------
+Refrigerator Page CSS Start
+----------------------------------------------------------------- */
+.product{
+    transform: translateY(100px);
+    margin-bottom: 100px;
+}
+.modal{
+    transform: translateY(200px);
+}
+.product h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap: 1.5rem; */
+    justify-content: center;
+    margin-top: 50px;
+    }
+    
+    .box{
+        flex: 1 1 18rem;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid rgba(0,0,0,.3);
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        margin: 15px;
+        transition: 0.5s;
+    }
+
+    .box:hover{
+        transform: translateY(-10px);
+        box-shadow: 0 10px 48px rgba (0,0,0,0.4);
+        background: linear-gradient(45deg, #b8dcfc, #fff);
+    }
+    
+    .box ul li{
+        text-align: left;
+        margin-left: 30px;
+    }
+    
+    .box img{
+    height: 250px;
+    width: 200px;
+    object-fit: contain;
+    padding: 10px;
+    }
+    
+    .discount{
+        position: absolute;
+        top: 10px; left:10px;
+        background: rgba(0,255,0,.1);
+        color: darkblue;
+        /* padding: .7rem 1rem; */
+        font-size: 20px;
+    }
+    
+    .icons{
+        position: absolute;
+         right: -6rem;
+         transition: 0.5s;
+         transform: translateY(-100px);
+    }
+    
+    .icons a{
+        display: block;
+        height: 40px;
+        width: 40px;
+        line-height: 40px ;
+        font-size: 20px;
+        color: #000;
+        background: rgba(0,0,0,.05);
+        border-radius: 50%;
+        margin-top: 10px;
+        text-decoration: none;
+    
+    }
+    
+    .icons a:hover{
+        background: darkblue;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .box:hover .icons{
+        /* right: 20px; */
+        transform: translateX(-110px);
+    
+    }
+    .box h3{
+        color: #000;
+        /* font-size: 30px; */
+    
+    }
+    
+    .stars i{
+    padding: 5px;
+    font-size: 15px;
+    color: gold;
+    }
+    
+    .price{
+        font-size: 20px;
+        color: #333;
+        padding: 5px;
+    
+    }
+    
+    .price span{
+        font-size: 18px;
+        color: #666;
+        text-decoration: line-through;
+        margin-left: 10px;
+    }
+    
+    .quntity{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: .5rem ;
+    }
+    
+    .quntity span{
+        padding: 5px;
+        font-size: 20px;
+        text-transform: capitalize;
+    
+    }
+    
+    .quntity input{
+        border: 1px solid rgba(0,0,0,.3);
+        font-size: 20px;
+        /* font-weight: bolder; */
+        color: #000;
+        padding-left: 10px;
+        background: rgba(0,0,0,.05);
+    }
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* transition: 0.5s; */
+}
+.fa-circle-arrow-down{
+    font-size: 40px;
+    color: orangered;
+}
+.button a i{
+    transition: 0.3s;
+}
+.button a :hover{
+transform: translateY(-5px);
+}

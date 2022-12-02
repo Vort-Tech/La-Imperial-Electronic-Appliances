@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: poppins;
+}
+
+.carousel-item img{
+    height: 550px;
+    object-fit: fill;
+}
+.carousel{
+    margin-top: 65px;
+}
+/* -----------------------------------------------------------------
+Policy Start
+----------------------------------------------------------------- */
+.services-home{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.inner{
+    display: flex;
+}
+.policy a{
+    border: 0.01px solid rgba(0, 0, 0, 0.089);
+    padding: 15px 70px;
+    display: flex;
+    align-items: center;
+}
+.policy :hover{
+    color: #03002f;
+    text-decoration: none;
+    outline: none;
+}
+.policy span{
+    display: block;
+    margin-left: 20px;
+    color: rgb(146, 145, 145);
+    text-align: center;
+    font-weight: bold;
+}
+.policy em{
+    font-size: 40px;
+    color: rgb(146, 145, 145);
+}
+/* -----------------------------------------------------------------
+Policy End
+----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------
+Air Conditioner, Refrigerator, TV Banners Start
+----------------------------------------------------------------- */
+
+.Mainbanner{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+}
+.Mainbanner h1{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Mainbanner a :hover{
+transition: 0.5s;
+transform: translateY(-5px);
+box-shadow: 0 5px 8px 2px #03002f;
+}
+
+.banner1 img{
+    background: #03002f;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.banner2 a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner2 img{
+    height: 400px;
+    width: 520px;
+    margin: 30px 40px;
+
+}
+
+/* -----------------------------------------------------------------
+Air Conditioner, Refrigerator, TV Banners End
+----------------------------------------------------------------- */
+
+/* -----------------------------------------------------------------
+New Arrival Card Crousel Start
+----------------------------------------------------------------- */
+.card{
+    padding-right: 10px;
+}
+.card img{
+    height: 250px;
+    width: 200px;
+    padding: 30px;
+    object-fit: contain;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    
+}
+.owl-nav button span{
+    font-size: 50px;
+    margin: 10px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px #03002f;
+}
+/* -----------------------------------------------------------------
+New Arrival Card Crousel End
+----------------------------------------------------------------- */
+
